@@ -1,0 +1,147 @@
+h1,h2,h3,li,ul,p{
+font-family:"Open Sans";
+}
+body{
+	background-color: #16a085;
+}
+section{
+
+	}
+#contenedor{
+	background-color:#e74c3c;
+
+}
+
+img{
+	height:226px;
+	width: 250px;
+}
+#buscador{
+
+margin-left: 50%;
+}
+h1{
+	width: 50%;
+}
+#iniciarSesion{
+	margin-left: -1%;
+}
+#iniciar{
+	background-color: #3498db;
+	border: 5px solid white;
+
+}
+
+header{
+	width: 100%;
+	background-color: #1abc9c;
+	margin-top: -20px;
+	margin-left: -15px;
+border: 5px solid white;	
+}
+
+#categorias{
+background-color: #ecf0f1;
+border: 5px solid white;
+
+}
+#cosaPasar{
+	margin-top: 10%;
+	overflow: hidden;
+	text-align: center;
+}
+#cosaPasar ul{
+	width: 300%;
+display: flex;
+animation: cambio 20s infinite alternate;
+}
+#cosaPasar li{
+	list-style: none;
+width: 100%;
+
+}
+#cosaPasar img{
+	width: 90%;
+	border: 5px solid white;
+}
+
+@keyframes cambio{
+0%{margin-left: 0;
+   
+}
+20%{margin-left: 0;
+
+}
+25%{margin-left: -100%;
+}
+45%{margin-left: -100%;
+
+}
+
+50%{margin-left: -200%;
+}
+70%{margin-left: -200%;
+}
+
+75%{margin-left: 0;
+}
+100%{margin-left: 0;
+}
+}
+#list{
+visibility: hidden;
+}
+@media screen and (max-width: 768px){
+	#iniciarSesion{
+		display: none;
+	}
+	#buscador{
+		margin-left: 40%;
+	}
+	#list{
+		visibility: visible;
+		
+	}
+	@keyframes cambio{
+0%{margin-left: 0;
+   
+}
+20%{margin-left: 0;
+
+}
+25%{margin-left: -105%;
+}
+45%{margin-left: -105%;
+
+}
+
+50%{margin-left: -205%;
+}
+70%{margin-left: -205%;
+}
+
+75%{margin-left: 0;
+}
+100%{margin-left: 0;
+}
+}
+}
+@media screen and (max-width: 480px){
+	h1{
+	width: 100%;
+}
+	#btnBuscar,#barraBuscar{
+		display: none;
+	}
+	#list{
+
+	}
+
+#cosaPasar img{
+	width: 70%;
+	border: 5px solid white;
+}
+}
+	}
+
+
